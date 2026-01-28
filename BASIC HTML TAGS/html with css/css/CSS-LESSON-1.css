@@ -48,7 +48,7 @@ button:active{
   font-size: 15px;
   cursor: pointer;
   border-radius: 20px;
-  transition: box-shadow 0.15s;
+  transition: box-shadow 0.15s ;
 }
 
 .button3:hover{
