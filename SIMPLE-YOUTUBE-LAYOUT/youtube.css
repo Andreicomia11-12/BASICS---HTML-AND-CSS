@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.thumbnail{
+  width: 300px;
+}
+
+.search-bar{
+  margin-left: 12px;
+  padding: 10px;
+}
