@@ -1,13 +1,36 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: Roboto;
 }
 
 .thumbnail{
   width: 300px;
+  display: block;
+
 }
 
 .search-bar{
-  margin-left: 12px;
   padding: 10px;
+  display: block;
+}
+
+.title{
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.author{
+  margin-bottom: 10px;
+
+}
+.container{
+  width: 300px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.views{
+
 }
