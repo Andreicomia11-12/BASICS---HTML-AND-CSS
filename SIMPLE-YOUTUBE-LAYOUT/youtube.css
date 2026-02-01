@@ -5,7 +5,7 @@
 }
 
 .thumbnail{
-  width: 300px;
+  width: 336px;
   display: block;
 
 }
@@ -16,21 +16,50 @@
 }
 
 .title{
-  width: 280px;
+  font-size: 14px;
   margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .author{
-  margin-bottom: 10px;
+  margin-bottom: 3px;
+    font-size: 12px;
 
 }
+.views{
+    font-size: 12px;
+
+}
+
+.parentDiv{
+  display: flex;
+}
 .container{
-  width: 300px;
+  width: 336px;
   display: inline-block;
   margin-right: 10px;
   vertical-align: top;
+  padding: 20px;
 }
 
-.views{
-
+.nestedContainer2{
+  margin-top: 10px;
+  display: flex;
 }
+
+.profileDiv{
+  display: inline-block;
+  /* margin-right: 10px; */
+  width: 15%;
+}
+.channelProfile{
+  width: 35px;
+  border-radius: 50%;
+}
+
+.infoDiv{
+  font-size: 14px;
+  width: 85%;
+}
+
+
