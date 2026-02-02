@@ -1,0 +1,60 @@
+.parent-div{
+  display: grid;
+  grid-template-columns: 100px 100px;
+}
+
+.div1{
+  background-color: blue;
+
+}
+
+.div2{
+  background-color: red;
+}
+
+.parent-div2{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  margin-top: 10px
+}
+
+.div3{
+  background-color: blue;
+
+}
+
+.div4{
+  background-color: red;
+}
+.div5{
+  background-color: green;
+}
+
+.parent-div3{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-top: 10px
+}
+
+.div6{
+  background-color: rgb(187, 13, 129);
+}
+.div7{
+  background-color: rgb(92, 92, 141);
+}
+
+.parent-div4{
+  display: grid;
+  grid-template-columns: 100px 1fr 2fr;
+  margin-top: 10px
+}
+
+.div8{
+  background-color: rgb(187, 184, 13);
+}
+.div9{
+  background-color: rgb(85, 197, 106);
+}
+.div10{
+  background-color: rgb(181, 59, 63);
+}
