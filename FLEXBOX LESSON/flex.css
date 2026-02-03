@@ -1,0 +1,47 @@
+body{
+  padding-bottom: 1000px;
+}
+
+.parentDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.parentDiv2{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.parentDiv3{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  justify-content: center;
+}
+
+.parentDiv4{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  justify-content: space-between;
+}
+
+.parentDiv5{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  justify-content: center;
+}
