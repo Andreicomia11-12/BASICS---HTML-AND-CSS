@@ -58,4 +58,89 @@
   width: 85%;
 } */
 
+.section1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 9px;
+}
 
+.hamburgIcon{
+  height: 23px;
+  margin-right: 7px;
+}
+
+.youtubeIcon{
+  height: 20px;
+}
+
+
+.search-bar::placeholder{
+  font-family: Roboto;
+  font-size: 16px;
+
+}
+
+.search-bar{
+  flex: 1;
+  height: 36px;
+  padding-left: 12px;
+  font-size: 15px;
+    border: 1px solid rgba(192, 192, 192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 10px rgba(0, 0, 0, 0.15);
+  width: 0;
+  min-width: 50px;
+}
+
+
+.search-bar:focus{
+  border: solid 1px rgb(29, 123, 231);
+  outline: none;
+}
+
+.searchButton{
+  height: 37px;
+  width: 66px;
+  margin-right: 10px;
+  margin-left:-2px;
+  border: 1px solid rgba(192, 192, 192);
+}
+
+.voiceSearch{
+  height: 37px;
+  width: 37px;
+  background-color: rgba(128, 128, 128, 0.166);
+  border-radius: 50%;
+  border: none;
+}
+
+.image1{
+  margin-top: 3px;
+  height: 65%;
+  width: 65%;
+}
+
+.image2{
+  height: 65%;
+  width: 65%;
+    margin-top: 3px;
+}
+
+.section3{
+
+
+}
+
+.sec3Icons{
+  width: 23px;
+}
+
+.myChannel{
+  width: 32px;
+}
+
+
+.container{
+  width: 400px;
+}
