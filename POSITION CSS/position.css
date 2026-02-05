@@ -1,0 +1,37 @@
+body{
+  height: 3000px;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+.header{
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.initialDiv{
+  background-color: green;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 50px;
+  width: 72px;
+}
+
+.div1{
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+  position: static;
+}
+
+.div2{
+  background-color: lightgoldenrodyellow;
+    height: 200px;
+  width: 200px;
+}
