@@ -27,11 +27,20 @@ body{
   background-color: lightblue;
   height: 200px;
   width: 200px;
-  position: static;
 }
 
 .div2{
   background-color: lightgoldenrodyellow;
     height: 200px;
   width: 200px;
+  position: relative;
+}
+
+.absolute1{
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding: 2px;
 }

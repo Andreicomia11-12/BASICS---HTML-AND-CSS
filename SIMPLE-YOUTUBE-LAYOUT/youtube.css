@@ -8,6 +8,19 @@
   width: 100%;
 }
 
+.nestedContainer1{
+  display: flex;
+  position: relative;
+}
+.video-time{
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+  padding: 2px;
+}
 
 
 .title{
@@ -79,6 +92,20 @@
   font-size: 16px;
 
 }
+.notifDiv{
+  position: relative;
+}
+
+.notifCount{
+  position: absolute;
+  font-size: 11px;
+  background-color: rgb(189, 9, 9);
+  color: white;
+  padding: 3px;
+  border-radius: 50%;
+  top: -2px;
+  right: -5px;
+}
 
 .search-bar{
   flex: 1;
@@ -131,7 +158,7 @@
 }
 
 .sec3Icons{
-  width: 23px;
+  width: 27px;
 }
 
 .myChannel{

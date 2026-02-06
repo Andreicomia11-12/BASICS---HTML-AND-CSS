@@ -6,3 +6,7 @@
   top: 55px;
   width: 77px;
 }
+
+.header{
+  z-index: 100;
+}
