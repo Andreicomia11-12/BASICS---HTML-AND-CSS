@@ -36,14 +36,15 @@
 }
 .views{
     font-size: 12px;
+    margin-bottom: 10px;
 
 }
 
 .parentDiv{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 10px;
+  column-gap: 15px;
+  row-gap: 30px;
 }
 .container{
   width: 100%;
@@ -54,17 +55,51 @@
   margin-top: 10px;
   display: grid;
   grid-template-columns: 50px 1fr;
-}
-/* 
-.profileDiv{
-  display: inline-block;
-  width: 15%;
-} */
-.channelProfile{
-  width: 35px;
-  border-radius: 50%;
+  position: relative;
 }
 
+.channel-tooltip{
+  position: absolute;
+  bottom: -20px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px 10px 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 0.8px rgba(0, 0, 0, 0.2);
+
+  background-color: white;
+  opacity: 0;
+  pointer-events: none;
+  
+}
+
+
+
+.channelProfile{
+  width: 38px;
+  border-radius: 50%;
+  z-index: 101;
+}
+
+.tooltip-info{
+  width: 100%;
+}
+
+.channelProfile1{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+
+}
+.imageContainer{
+  display: flex;
+  z-index: 200;
+}
+
+.imageContainer:hover .channel-tooltip{
+  opacity: 1;
+}
 /* .infoDiv{
   font-size: 14px;
   width: 85%;
@@ -129,7 +164,34 @@
   width: 66px;
   margin-right: 10px;
   margin-left:-2px;
-  border: 1px solid rgba(192, 192, 192);
+  border: 1px solid rgb(194, 191, 191);
+  position: relative;
+}
+
+.searchButton .tooltip{
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: -50px;
+  border-radius: 2px;
+  background-color:rgba(93, 92, 92, 0.818);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity(0.8s);
+  pointer-events: none;
+}
+
+.searchButton:hover .tooltip{
+  opacity: 1;
+  
+}
+
+
+.searchButton:hover{
+  background-color:rgba(222, 221, 221, 0.818);
 }
 
 .voiceSearch{
@@ -138,7 +200,110 @@
   background-color: rgba(128, 128, 128, 0.166);
   border-radius: 50%;
   border: none;
+  position: relative;
 }
+
+
+.voiceSearch .tooltip2{
+  height: 30px;
+  position: absolute;
+  bottom: -50px;
+  width: 150px;
+  right: -70px;
+  border-radius: 2px;
+  background-color:rgba(93, 92, 92, 0.818);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 8px 1px 8px;
+  opacity: 0;
+    transition: opacity(0.15s);
+    pointer-events: none;
+}
+
+.voiceSearch:hover .tooltip2{
+  opacity: 1;
+}
+
+
+.addVideo{
+  position: relative;
+}
+
+.addVideo .tooltip{
+  height: 30px;
+  position: absolute;
+  bottom: -52px;
+  right: -15px;
+  border-radius: 2px;
+  background-color:rgba(93, 92, 92, 0.818);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 8px 1px 8px;
+  opacity: 0;
+  transition: opacity(0.15s);
+  pointer-events: none;
+}
+
+.addVideo:hover .tooltip{
+  opacity: 1;
+}
+
+.youtube-apps{
+  position: relative;
+}
+.youtube-apps .tooltip{
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  bottom: -52px;
+  right: -50px;
+  border-radius: 2px;
+  background-color:rgba(93, 92, 92, 0.818);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 8px 1px 8px;
+  opacity: 0;
+  transition: opacity(0.15s);
+  pointer-events: none;
+}
+
+.youtube-apps:hover .tooltip{
+  opacity: 1;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.notifDiv .tooltip{
+  height: 30px;
+  position: absolute;
+  bottom: -52px;
+  right: -40px;
+  border-radius: 2px;
+  background-color:rgba(93, 92, 92, 0.818);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 8px 1px 8px;
+  opacity: 0;
+    transition: opacity(0.15s);
+    pointer-events: none;
+}
+
+.notifDiv:hover .tooltip{
+  opacity: 1;
+}
+
+
 
 .image1{
   margin-top: 3px;
@@ -149,7 +314,7 @@
 .image2{
   height: 65%;
   width: 65%;
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 .section3{

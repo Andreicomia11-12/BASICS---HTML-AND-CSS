@@ -27,21 +27,26 @@
       <input class="search-bar" type="text" name="" id="" placeholder="Search">
       <button class="searchButton">
         <img class="image1" src="./assets/icons/search.svg" alt="">
+        <div class="tooltip">Search</div>
       </button>
       <button class="voiceSearch">
         <img class="image2" src="./assets/icons/voice-search-icon.svg" alt="">
+        <div class="tooltip2">Search with your voice</div>
       </button>
     </div>
     <div class="section3">
       <div class="addVideo">
         <img class="sec3Icons" src="./assets/icons/upload.svg" alt="">
+        <div class="tooltip">Create</div>
       </div>
-      <div>
+      <div class="youtube-apps">
         <img class="sec3Icons" src="./assets/icons/youtube-apps.svg" alt="">
+        <div class="tooltip">Youtube apps</div>
       </div>
       <div class="notifDiv">
-        <img class="sec3Icons" src="./assets/icons//notifications-logo.svg" alt="">
+        <img class="sec3Icons bell" src="./assets/icons//notifications-logo.svg" alt="">
         <div class="notifCount">34</div>
+        <div class="tooltip">Notification</div>
       </div>
       <div> 
         <img class="sec3Icons myChannel" src="./assets/icons/my-channel.jpeg" alt="">
@@ -50,29 +55,77 @@
   </div>
   
   <div class="sidebar">
-    
+    <div class="box1">
+      <img src="./assets/icons/home.svg" alt="">
+      <div class="image-text">Home</div>
+    </div>
+    <div class="box1">
+      <img src="./assets/icons/explore.svg" alt="">
+      <div class="image-text">Explore</div>
+    </div>
+
+    <div class="box1">
+      <img src="./assets/icons/subscriptions.svg" alt="">         
+      <div class="image-text">Subscription</div>
+    </div>  
+
+    <div class="box1">
+      <img src="./assets/icons/originals.svg" alt="">      
+      <div class="image-text">Originals</div>
+    </div>
+
+    <div class="box1">
+        <img src="./assets/icons/youtube-music.svg" alt="">
+        <div class="image-text-music">Youtube Music</div>
+      </div>
+
+    <div class="box1">
+        <img src="./assets/icons/library.svg" alt="">     
+        <div class="image-text">Library</div>
+    </div>
   </div>
    
 
 <div class="parentDiv">
     <div class="container">
-    
-      <div class="nestedContainer1">
+      
+      <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+          <div class="nestedContainer1">
             <img class="thumbnail" src="./assets/thumbnail/yt-image1.webp" alt="">
             <div class="video-time">
-              13:00
-            </div>
+              10:12
+          </div>
       </div>  
+      </a>
+
 
       <div class="nestedContainer2">
           <div class="profileDiv">
-            <img class="channelProfile" src="./assets/channel-profile/channel-1.jpeg" alt="">
+            <div class="imageContainer">
+              <img class="channelProfile" src="./assets/channel-profile/channel-1.jpeg" alt="">
+                           <!-- tool tip -->
+            <div class="channel-tooltip">
+              <img class="channelProfile1" src="./assets/channel-profile/channel-1.jpeg" alt="">
+              <div class="tooltip-info">
+                <p class="author">
+                  Marques Brownlee
+                </p>
+
+                <p class="views">
+                  3.4M views &middot; 6 months ago
+                </p>
+              </div>
+            </div>
+            <!-- end of tool tip -->
+            </div>
           </div>
 
           <div class="infoDiv">
-            <p class="title">
-              Talking Tech and AI with Google CEO Sundar Pichai!
-            </p>
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <p class="title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+            </a>
 
             <p class="author">
               Marques Brownlee
@@ -90,22 +143,42 @@
 
     <div class="container">
 
-      <div class="nestedContainer1">
+      <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+        <div class="nestedContainer1">
           <img class="thumbnail" src="./assets/thumbnail/thumbnail-2.webp" alt="">
             <div class="video-time">
-              11:18
+              09:42
             </div>
         </div>
+      </a>
 
       <div class="nestedContainer2">
         <div class="profileDiv">
-            <img class="channelProfile" src="./assets/channel-profile/channel-2.jpeg" alt="">
-          
+            <div class="imageContainer">
+              <img class="channelProfile" src="./assets/channel-profile/channel-2.jpeg" alt="">
+                           <!-- tool tip -->
+            <div class="channel-tooltip">
+              <img class="channelProfile1" src="./assets/channel-profile/channel-2.jpeg" alt="">
+              <div class="tooltip-info">
+                <p class="author">
+                  Markiplier
+                </p>
+
+                <p class="views">
+                  19M views &middot; 4 years ago
+                </p>
+              </div>
+            </div>
+            <!-- end of tool tip -->
+            </div>
           </div>
         <div class="infoDiv">
+
+        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
           <p class="title">
           Try Not To Laugh Challenge #9
           </p>
+        </a>
 
           <p class="author">
             Markiplier
@@ -121,19 +194,42 @@
 
       <div class="container">
 
-      <div class="nestedContainer1">
-          <img class="thumbnail" src="./assets/thumbnail/thumbnail-3.webp" alt="">
-      </div>
+      <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+        <div class="nestedContainer1">
+            <img class="thumbnail" src="./assets/thumbnail/thumbnail-3.webp" alt="">
+            <div class="video-time">
+                12:45
+            </div>
+        </div>
+      </a>
+
 
       <div class="nestedContainer2">
         <div class="profileDiv">
-            <img class="channelProfile" src="./assets/channel-profile/channel-3.jpeg" alt="">
-          </div>
-        <div class="infoDiv">
-          <p class="title">         
-          Crazy Tik Toks Taken Moments Before DISASTER
-          </p>
+            <div class="imageContainer">
+              <img class="channelProfile" src="./assets/channel-profile/channel-3.jpeg" alt="">
+                           <!-- tool tip -->
+            <div class="channel-tooltip">
+              <img class="channelProfile1" src="./assets/channel-profile/channel-3.jpeg" alt="">
+              <div class="tooltip-info">
+                <p class="author">
+                  SSSniperWolf
+                </p>
 
+                <p class="views">
+                  12M views &middot; 1 years ago
+                </p>
+              </div>
+            </div>
+            <!-- end of tool tip -->
+            </div>
+            </div>
+        <div class="infoDiv">
+          <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w">
+              <p class="title">         
+              Crazy Tik Toks Taken Moments Before DISASTER
+              </p>
+          </a>
           <p class="author">
             SSSniperWolf
           </p>
@@ -147,19 +243,41 @@
   </div> 
 
       <div class="container">
-
+      <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
       <div class="nestedContainer1">
           <img class="thumbnail" src="./assets/thumbnail/thumbnail-4.webp" alt="">
+            <div class="video-time">
+              11:18
+            </div>
       </div>
-
+      </a>
+    
       <div class="nestedContainer2">
         <div class="profileDiv">
-            <img class="channelProfile" src="./assets/channel-profile/channel-4.jpeg" alt="">
-          </div>
+            <div class="imageContainer">
+              <img class="channelProfile" src="./assets/channel-profile/channel-4.jpeg" alt="">
+                           <!-- tool tip -->
+            <div class="channel-tooltip">
+              <img class="channelProfile1" src="./assets/channel-profile/channel-4.jpeg" alt="">
+              <div class="tooltip-info">
+                <p class="author">
+                  Veritasium
+                </p>
+
+                <p class="views">
+                  18M views &middot; 4 months ago
+                </p>
+              </div>
+            </div>
+            <!-- end of tool tip -->
+            </div>
+            </div>
         <div class="infoDiv">
-          <p class="title">
-          The Simplest Math Problem No One Can Solve - Collatz Conjecture
-          </p>
+          <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+            <p class="title">
+            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>             
+          </a>
 
           <p class="author">
             Veritasium
@@ -174,20 +292,40 @@
   </div> 
 
       <div class="container">
-
+      <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
       <div class="nestedContainer1">
           <img class="thumbnail" src="./assets/thumbnail/thumbnail-5.webp" alt="">
+            <div class="video-time">
+              07:40
+            </div>
       </div>
-
+    </a>
       <div class="nestedContainer2">
         <div class="profileDiv">
-            <img class="channelProfile" src="./assets/channel-profile/channel-5.jpeg" alt="">
+            <div class="imageContainer">
+              <img class="channelProfile" src="./assets/channel-profile/channel-5.jpeg" alt="">
+                           <!-- tool tip -->
+            <div class="channel-tooltip">
+              <img class="channelProfile1" src="./assets/channel-profile/channel-5.jpeg" alt="">
+              <div class="tooltip-info">
+                <p class="author">
+                  CS Dojo
+                </p>
+
+                <p class="views">
+                  519k views &middot; 5 years ago
+                </p>
+              </div>
+            </div>
+            <!-- end of tool tip -->
+            </div>
           </div>
         <div class="infoDiv">
+          <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
           <p class="title">        
           Kadane's Algorithm to Maximum Sum Subarray Problem
           </p>
-
+          </a>
           <p class="author">
             CS Dojo
           </p>
@@ -201,20 +339,41 @@
   </div> 
 
       <div class="container">
-
+        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
       <div class="nestedContainer1">
           <img class="thumbnail" src="./assets/thumbnail/thumbnail-6.webp" alt="">
+          <div class="video-time">
+              09:30
+          </div>
       </div>
+      </a>
 
       <div class="nestedContainer2">
         <div class="profileDiv">
-            <img class="channelProfile" src="./assets/channel-profile/channel-6.jpeg" alt="">
-          </div>
+            <div class="imageContainer">
+              <img class="channelProfile" src="./assets/channel-profile/channel-6.jpeg" alt="">
+                           <!-- tool tip -->
+            <div class="channel-tooltip">
+              <img class="channelProfile1" src="./assets/channel-profile/channel-6.jpeg" alt="">
+              <div class="tooltip-info">
+                <p class="author">
+                  MrBeast
+                </p>
+
+                <p class="views">
+                  141M views &middot; 1 years ago
+                </p>
+              </div>
+            </div>
+            <!-- end of tool tip -->
+            </div>
+            </div>
         <div class="infoDiv">
+          <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg">
           <p class="title">
           Anything You Can Fit In The Circle I’ll Pay For
           </p>
-
+          </a>
           <p class="author">
             MrBeast
           </p>
