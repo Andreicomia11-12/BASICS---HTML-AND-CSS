@@ -46,6 +46,19 @@
   column-gap: 15px;
   row-gap: 30px;
 }
+
+@media(max-width: 750px){
+  .parentDiv{
+  grid-template-columns: 1fr 1fr;
+  } 
+}
+
+@media (min-width: 1200px){
+  .parentDiv{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  } 
+}
+
 .container{
   width: 100%;
 
